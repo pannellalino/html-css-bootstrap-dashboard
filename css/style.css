@@ -6,7 +6,26 @@ body{
 header{
   height: 70px;
   background-color: #F6F7F9;
+  padding: 10px 0;
 }
+
+header .icons{
+  color: #494646;
+}
+
+header .icons .ms-2{
+  color: #FC7C09;
+}
+
+header .form-control{
+  background-color: #DEDFDE;
+  font-weight: 200;
+  font-size: .9rem;
+}
+
+header .small-logo{
+  height: 100%;
+} 
 
 aside{
   width: 160px;
@@ -17,11 +36,16 @@ aside{
 }
 
 main{
-  background-color: aquamarine;
   width: calc(100% - 160px);
   height: calc(100vh - 70px);
   margin-left: auto;
   overflow: auto;
+}
+
+.first{
+  background-color: #175AE2;
+  /* debug */
+  height: 120px;
 }
 
 @media (max-width: 576px) {
