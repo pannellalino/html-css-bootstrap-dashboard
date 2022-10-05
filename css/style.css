@@ -2,3 +2,33 @@
 body{
   font-family: font-family: 'Roboto', sans-serif;;
 }
+
+header{
+  height: 70px;
+  background-color: #F6F7F9;
+}
+
+aside{
+  width: 160px;
+  height: calc(100vh - 70px);
+  background-color: #071627;
+  background-image: url("../img/sidebar-bg.png");
+  float: left;
+}
+
+main{
+  background-color: aquamarine;
+  width: calc(100% - 160px);
+  height: calc(100vh - 70px);
+  margin-left: auto;
+  overflow: auto;
+}
+
+@media (max-width: 576px) {
+  aside{
+    width: 50px;
+  }
+  main{
+    width: calc(100% - 50px);
+  }
+}
