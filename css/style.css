@@ -1,4 +1,3 @@
-/* font-family: 'Poppins', sans-serif; */
 body{
   font-family: font-family: 'Roboto', sans-serif;;
 }
@@ -6,7 +5,7 @@ body{
 header{
   height: 70px;
   background-color: #F6F7F9;
-  padding: 10px 0;
+  padding: 8px 0;
 }
 
 header .icons{
@@ -33,6 +32,24 @@ aside{
   background-color: #071627;
   background-image: url("../img/sidebar-bg.png");
   float: left;
+  font-family: 'Poppins', sans-serif;
+}
+
+aside ul li{
+  list-style: none;
+  margin: 10px 0;
+}
+
+aside ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 200;
+}
+
+aside ul li a:hover{
+  filter: brightness(.5);
+  color: white;
 }
 
 main{
@@ -46,6 +63,48 @@ main{
   background-color: #175AE2;
   /* debug */
   height: 120px;
+}
+
+.second .container-table{
+  border: 1px solid lightgrey;
+  border-top: 0;
+  padding: 15px 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.second .container-table thead tr{
+  border-bottom: black;
+}
+
+.second .todo .box-todo{
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+
+.second .todo .box-todo a{
+  text-decoration: none;
+  border-bottom: 1px solid lightgray;
+  display: inline-block;
+  width: 100%;
+  padding: 15px;
+  padding-top: 5px;
+  background-color: #F6F7F9;
+}
+
+.second .todo .box-todo .group-checkbox{
+  border: 1px solid lightgray;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.second .todo .box-todo .row-checkbox{
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+.second .todo .box-todo .row-checkbox.last-check{
+  border-bottom: 0;
 }
 
 @media (max-width: 576px) {
