@@ -42,9 +42,9 @@
     </nav>
   </header>
 
-  <aside class="d-flex flex-column justify-content-between">
+  <aside class="d-flex flex-column justify-content-between align-items-center">
     <nav>
-      <ul>
+      <ul class="p-0">
         <li><a href="#">
           <i class="fa-solid fa-house"></i>
           <span>Home</span>
@@ -60,7 +60,7 @@
       </ul>
     </nav>
     <nav>
-      <ul>
+      <ul class="p-0">
         <li>
           <a href="#">
            <i class="fa-solid fa-gear"></i>
@@ -75,12 +75,23 @@
     <section class="first">
       <div class="container-fluid h-100">
         <div class="row text-light h-100 align-items-center">
-          <div class="col-8">
-            <h2>Boolean</h2>
+          <div class="col-sm-8 mb-3 mb-sm-0">
+            <div class="top">
+             <h2 class="d-inline-block">Boolean</h2>
+             <span class="badge rounded-pill p-2">Piano blaze</span>
+            </div>
+            <div class="bottom">
+             <span class="badge rounded-pill p-2">3 app</span>
+             <i class="fa-solid fa-angles-right d-lg-none fs-6"></i>
+             <span class="badge rounded-pill p-2 d-none d-lg-inline-block">Boolean mobile app</span>
+             <span class="badge rounded-pill p-2 d-none d-md-inline-block">Boolean web app</span>
+             <span class="badge rounded-pill p-2 d-none d-sm-inline-block">Boolean blog app</span>
+             <span class="badge rounded-pill p-2 d-sm-none"><i class="fa-solid fa-plus"></i></span>
+            </div>
           </div>
-          <div class="col-4">
+          <div class="col-sm-4">
             <p>Alunni affranti negli ultimi 30 minuti</p>
-            <span>12</span>
+            <span class="fs-2">12</span>
           </div>
         </div>
       </div>
@@ -170,7 +181,7 @@
               </div>
             </div>
 
-              <div class="box-faq card">
+              <div class="box-faq card mb-3">
                 <div class="card-header">
                   <h3 class="fw-normal">F.A.Q.</h3>
                 </div>
@@ -273,6 +284,7 @@
         </div>
       </div>
     </section>
+    
   </main>
 
 </body>

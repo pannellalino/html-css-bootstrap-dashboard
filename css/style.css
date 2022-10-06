@@ -61,7 +61,11 @@ main{
 
 .first{
   background-color: #175AE2;
-  padding: 0 20px;
+  padding: 20px;
+}
+
+.first .badge{
+  background-color: #1345AC;
 }
 
 .second .box-grafico{
