@@ -26,6 +26,10 @@ header .small-logo{
   height: 100%;
 }
 
+header form{
+  background-color: #D6D7D6;
+}
+
 aside{
   width: 10%;
   height: calc(100vh - 70px);
