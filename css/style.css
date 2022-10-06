@@ -68,6 +68,11 @@ main{
   background-color: #1345AC;
 }
 
+.second .box-classi i{
+  color: #59626A;
+  border: 1px solid #59626A;
+}
+
 .second .box-grafico{
   border: 1px solid lightgrey;
   border-radius: 5px;
