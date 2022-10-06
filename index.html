@@ -89,12 +89,14 @@
     <section class="second">
       <div class="container-fluid my-3">
         <div class="row">
+
           <div class="col-lg-8">
-            <div class="list-group">
-                <a href="#" class="list-group-item list-group-item-action bg-light fs-3 fw-light pb-3" aria-current="true">Prossime classi
-                </a>
+
+            <div class="box-classi card mb-3">
+              <div class="card-header">
+                <h3 class="fw-normal">Prossime classi</h3>
               </div>
-              <div class="container-table">
+              <div class="card-body">
                 <table class="table">
                   <thead>
                     <tr>
@@ -164,28 +166,110 @@
                     </tr>
                   </tbody>
                 </table>
+
               </div>
-            
+            </div>
+
+              <div class="box-faq card">
+                <div class="card-header">
+                  <h3 class="fw-normal">F.A.Q.</h3>
+                </div>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Come si sviluppa un sistema di chat in real time?
+                          </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">Boh!</div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Posso usare position:absolute per allineare le colonne?
+                          </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">Boh!</div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            Il mio sito è responsive?
+                          </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">Boh!</div>
+                        </div>
+                      </div>
+                    </div> 
+                  </blockquote>
+                </div>
+              </div> 
           </div>
-          <div class="todo col-lg-4">
-            <div class="box-todo w-100">
-              <a href="#" class="text-dark fs-2">Todo</a>
-              <div class="group-checkbox">
-                <div class="row-checkbox">
-                  <input class="form-check-input mt-0 align-middle" type="checkbox" value="" aria-label="Checkbox for following text input">
-                  <span>Avvisare gli alunni</span>
-                </div>
-                <div class="row-checkbox">
-                  <input class="form-check-input mt-0 align-middle" type="checkbox" value="" aria-label="Checkbox for following text input">
-                  <span>Lezione su Bootstrap 5</span>
-                </div>
-                <div class="row-checkbox last-check">
-                  <input class="form-check-input mt-0 align-middle" type="checkbox" value="" aria-label="Checkbox for following text input">
-                  <span>Conquistare il mondo con Laravel</span>
+
+          <div class="col-lg-4">
+
+            <div class="box-todo card mb-3">
+              <div class="card-header">
+                <h3 class="fw-normal">Todo</h3>
+              </div>
+              <div class="card-body">
+                <div class="card w-100" style="width: 18rem;">
+                  <ul class="list-group list-group-flush fw-light">
+                    <li class="list-group-item">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Avvisare gli alunni
+                        </label>
+                      </div>                      
+                    </li>
+                    <li class="list-group-item">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Lezione su Bootstrap 5
+                        </label>
+                      </div>                      
+                    </li><li class="list-group-item">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Conquistare il mondo con Laravel
+                        </label>
+                      </div>                      
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
+
+            <div class="box-grafico w-100 p-3">
+              <div class="card w-100" style="width: 18rem;">
+                <img src="img/chart.jpg" class="card-img-top" alt="chart">
+                <div class="card-body">
+                  <h5 class="card-title fw-normal">Utenti attivi</h5>
+                  <p class="card-text fw-light">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
+                </div>
+                <ul class="list-group list-group-flush fw-light">
+                  <li class="list-group-item">Gennaio: 1200</li>
+                  <li class="list-group-item">Febbraio: 800</li>
+                  <li class="list-group-item">Marzo: 1500</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Visualizza report approfondito</a>
+                </div>
+              </div>
+            </div>
+
           </div>
+
         </div>
       </div>
     </section>

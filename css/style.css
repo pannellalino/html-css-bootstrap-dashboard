@@ -62,55 +62,19 @@ main{
 .first{
   background-color: #175AE2;
   padding: 0 20px;
-  /* debug */
-  height: 120px;
 }
 
-.second .container-table{
-  border: 1px solid lightgrey;
-  border-top: 0;
-  padding: 15px 20px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
-
-.second .container-table thead tr{
-  border-bottom: black;
-}
-
-.second .todo .box-todo{
+.second .box-grafico{
   border: 1px solid lightgrey;
   border-radius: 5px;
-}
-
-.second .todo .box-todo a{
-  text-decoration: none;
-  border-bottom: 1px solid lightgray;
-  display: inline-block;
-  width: 100%;
-  padding: 15px;
-  padding-top: 5px;
-  background-color: #F6F7F9;
-}
-
-.second .todo .box-todo .group-checkbox{
-  border: 1px solid lightgray;
-  margin: 10px;
-  border-radius: 5px;
-}
-
-.second .todo .box-todo .row-checkbox{
-  padding: 10px;
-  border-bottom: 1px solid lightgray;
-}
-
-.second .todo .box-todo .row-checkbox.last-check{
-  border-bottom: 0;
 }
 
 @media (max-width: 576px) {
   aside{
     width: 50px;
+  }
+  aside span{
+    display: none;
   }
   main{
     width: calc(100% - 50px);
